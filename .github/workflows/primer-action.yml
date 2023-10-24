@@ -1,0 +1,10 @@
+name: Mi Primer Flujo de Trabajo
+on: workflow_dispatch
+jobs:
+  primer-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Imprimir saludo
+        run: echo "Hola Mundo con GitHub Actions"
+      - name: Imprimir despedida
+        run: echo "Listo. ¡Adiós!"
